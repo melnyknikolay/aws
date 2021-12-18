@@ -1,0 +1,11 @@
+{
+  "title": {
+    "S": "DynamoDB"
+  },
+  "author": {
+    "S": "Besos"
+  },
+  "year": {
+    "N": "2021"
+  }
+}

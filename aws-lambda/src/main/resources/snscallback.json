@@ -1,0 +1,11 @@
+{
+  "TopicConfigurations": [
+    {
+      "Id": "1234567890124",
+      "TopicArn": "arn:aws:sns:us-east-1:000000000000:s3Topic",
+      "Events": [
+        "s3:ObjectCreated:*"
+      ]
+    }
+  ]
+}

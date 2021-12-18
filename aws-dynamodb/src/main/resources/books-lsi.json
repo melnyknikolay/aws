@@ -1,0 +1,21 @@
+[
+  {
+    "IndexName": "BookPublisherIndex",
+    "KeySchema": [
+      {
+        "AttributeName": "title",
+        "KeyType": "HASH"
+      },
+      {
+        "AttributeName": "publisher",
+        "KeyType": "RANGE"
+      }
+    ],
+    "Projection": {
+      "ProjectionType": "INCLUDE",
+      "NonKeyAttributes": [
+        "year"
+      ]
+    }
+  }
+]

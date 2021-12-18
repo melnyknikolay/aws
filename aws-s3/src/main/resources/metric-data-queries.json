@@ -1,0 +1,15 @@
+[
+  {
+    "Id": "ObjectsCount",
+    "MetricStat": {
+      "Metric": {
+        "Namespace": "AWS/S3",
+        "MetricName": "NumberOfObjects"
+      },
+      "Period": 300,
+      "Stat": "Sum",
+      "Unit": "Count"
+    },
+    "ReturnData": true
+  }
+]

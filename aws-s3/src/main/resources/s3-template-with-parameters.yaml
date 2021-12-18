@@ -1,0 +1,11 @@
+Parameters:
+  bucketName:
+    Type: String
+    Description: test
+Resources:
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Retain
+    Properties:
+      BucketName:
+        Ref: bucketName

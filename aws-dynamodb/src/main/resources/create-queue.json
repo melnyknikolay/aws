@@ -1,0 +1,4 @@
+{
+  "MaximumMessageSize": "4096",
+  "VisibilityTimeout": "10"
+}
